@@ -34,6 +34,7 @@ export class PDFPage extends React.Component {
   }
 
   onChange(isVisible) {
+    console.log("VIEWER isVisible", isVisible)
     if (isVisible) this.setState({ isVisible });
   }
 
